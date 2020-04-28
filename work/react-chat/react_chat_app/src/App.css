@@ -1,0 +1,140 @@
+#chatting-app {
+  background-color: papayawhip;
+}
+.login-panel{
+  text-align: center;
+  align-items: center;
+  background-color: snow;
+  font-family: Georgia;
+  color: blue;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-panel{
+  text-align: center;
+  align-items: center;
+  background-color: snow;
+  font-family: Georgia;
+  
+  display: flex;
+  flex-direction: row;
+}
+
+.title {
+  height: 60px;
+  border-bottom: 1px solid #E1E8EE;
+  padding: 20px 30px;
+  background-color: papayawhip;
+  font-size: 38px;
+  font-weight: 400;
+  text-align: center;
+  color: rgb(15, 73, 131);
+}
+
+.outgoing {
+  padding: 2rem ;
+  size: 2rem;
+  background-color: wheat;
+  font-size: 1cm;
+  align-items: center;
+  text-align: center;
+}
+
+.username {
+  padding: 0.5rem;
+  size: 2rem;
+  background-color: wheat;
+  font-size: 1cm;
+}
+
+.create {
+  padding: 0.5rem ;
+  size: 1rem;
+  background-color: powderblue;
+  font-size: 1cm;
+}
+.btn-msg{
+  padding: 0.5rem ;
+  size: 1rem;
+  background-color: mediumturquoise;
+  font-size: 1cm;
+}
+
+.logout {
+  padding: 0.5rem ;
+  size: 1rem;
+  font-size: 1cm;
+  margin-top: 2px;
+  margin-right: 5px;
+  position:absolute;
+  top: 10px;
+  right: 10px;
+ 
+  background-color: red;
+}
+
+.status{
+  color: red;
+}
+
+.chat-app { 
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.users { 
+  border: 1px solid black;
+  list-style: none;
+  padding: 5px;
+  margin: 0;
+  flex: 1 0 ;
+  background-color: #BADA55 ;
+}
+
+.messages { 
+  border: 1px solid black;
+  flex: 3 0 ;
+  background-color: skyblue;
+}
+
+.messages:hover { 
+  background-color: #BADA55;
+}
+
+.message-text { 
+  padding-left: 10px;
+}
+
+.text-fields {
+  padding: 5px;
+  border: 1px solid black;
+}
+
+.message {
+  text-align: center;
+  padding: 0.5rem;
+  size: 2rem;
+  background-color: white;
+  font-size: 1cm;
+}
+
+.message-list {
+  text-align: left;
+  background-color: lavender;
+  font-size: 2rem;
+  list-style:none;
+  max-height:200px;
+  overflow:auto;
+}
+
+.user-list {
+  text-align: left;
+  background-color: lavender;
+  font-size: 2rem;
+  list-style:none;
+  max-height:200px;
+  overflow:auto;
+}

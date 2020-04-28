@@ -1,0 +1,136 @@
+#shopping-cart {
+  background-color: papayawhip;
+}
+.display-panel{
+  text-align: center;
+  align-items: center;
+  background-color: snow;
+  font-family: Georgia;
+  color: blue;
+}
+
+.title {
+  height: 60px;
+  border-bottom: 1px solid #E1E8EE;
+  padding: 20px 30px;
+  background-color: papayawhip;
+  font-size: 38px;
+  font-weight: 400;
+  text-align: center;
+  color: rgb(15, 73, 131);
+}
+
+.to-add {
+  padding: 2rem;
+  size: 2rem;
+  background-color: wheat;
+  font-size: 1cm;
+}
+
+.outgoing {
+  padding: 2rem ;
+  size: 2rem;
+  background-color: wheat;
+  font-size: 1cm;
+}
+
+.username {
+  padding: 0.5rem;
+  size: 2rem;
+  background-color: wheat;
+  font-size: 1cm;
+}
+
+.create {
+  padding: 0.5rem ;
+  size: 1rem;
+  background-color: wheat;
+  font-size: 1cm;
+}
+.items {
+  text-align: center;
+  align-items: center;
+  list-style-type: none;
+  overflow-y:scroll;
+  text-align: center;
+  align-items: center;
+}
+
+
+.item {
+  color: darkblue;
+  align-items: center;
+  width: 35% 75%;
+  padding-top: 25px;
+  margin-right: 70px;
+  display: flex;
+  flex-direction: row;
+  background-color: peachpuff;
+  
+}
+.item:hover {
+  background-color: lightyellow;
+}
+
+.description {
+  padding-top: 10px;
+  display: flex;
+  flex: 2 0;
+  font-size: 1cm;
+  font-family: serif;
+  font-weight: 300;
+  color: blue;
+
+}
+button[class*=btn] {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  border: black;
+  cursor: pointer;
+  font-size: 1cm;
+}
+
+.delete-btn{
+  Cursor: pointer;
+  margin-bottom: 3px;
+  background-color: tomato;
+}
+
+.plus-btn{
+  margin-top: 2px;
+  background-color: turquoise;
+}
+.update{
+  padding: 0.5rem ;
+  size: 1rem;
+  font-size: 1cm;
+  margin-top: 2px;
+  margin-right: 5px;
+
+  background-color: turquoise;
+
+}
+.logout {
+  padding: 0.5rem ;
+  size: 1rem;
+  font-size: 1cm;
+  margin-top: 2px;
+  margin-right: 5px;
+  position:absolute;
+  top: 10px;
+  right: 10px;
+ 
+  background-color: cornflowerblue;
+}
+
+.loginStatus,.duplicateError{
+  color: red;
+}
+
+.update-text{
+  padding: 1rem;
+  size: 2rem;
+  font-size: 1cm;
+
+}

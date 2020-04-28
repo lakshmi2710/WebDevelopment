@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+    <link rel="stylesheet" href="chat.css" />
+</head>
+<body>
+    <div class="chatting-app "></div>
+    <div id="login-page">
+        <div class="title">
+            Welcome to Login Page
+        </div>
+        <div class="login-panel">
+            <h2>Please Enter UserName</h2>
+            <input class="username" name="text" type="text" />
+            <button class="create" type="button">Create</button>
+            <div class="Status">
+            </div>
+        </div>
+    </div>
+    <div id="chat-app">
+        <button class="logout" type="button">Logout</button>
+        
+        <div class="title">
+            Welcome To The Chatting App!
+        </div>
+        <div class="chat-panel">
+            <div class="users">
+                <h3>Active Users</h3>
+                <ul class="user-list">
+                </ul>
+            </div>
+            <div class="messages">
+                <h3>Messages</h3>
+                <ul class="message-list">
+                </ul>
+            </div>
+        </div>
+        <div class="outgoing">
+            <input class="message" name="text" type="text" />
+            <button class="btn-msg" type="button">Send</button>
+            <div class="Status">
+            </div>
+        </div>
+    </div>
+    <script src="chat.js"></script>
+</body>
+</html>
