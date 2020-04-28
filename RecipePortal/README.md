@@ -1,4 +1,4 @@
-# Word Guessing Game
+# Recipe Portal
 
 
 ## Goal and Requirements
