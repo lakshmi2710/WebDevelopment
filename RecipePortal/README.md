@@ -8,7 +8,7 @@ Created a recipe storage , along with the services necessary to support it.
 
 The application is a single-page application. (which means only one page load!)  It will NOT use React and it will not use Create React App.
 
-I will be able to install, build, and run your application with `npm install`, `npm start`
+Will be able to install, build, and run application with `npm install`, `npm start`
 
 
 From the main screen when a user loads the application:
@@ -57,11 +57,11 @@ From the main screen when a user loads the application:
 ### REST Services
 
 * You will need to add REST services to fulfill the needs of the application
-* Pick services data, methods, URLs, and status codes to match the requirements of RESTful services as described in class
+* Pick services data, methods, URLs, and status codes to match the requirements of RESTful services
 * Any request/response bodies will be in JSON (if they are present)
 * Store the author (username) of a new recipe, along with any created id for that recipe
 
 ### Persistence
-* There is no particular persistence requirement: the data need only persist as long as the server is running
+* There is no particular persistence maintained: the data need only persist as long as the server is running
 * If you restart the server, the data is lost
 
